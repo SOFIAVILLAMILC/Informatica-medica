@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MENU</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 170, 255);</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>110</y>
+     <width>271</width>
+     <height>275</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Palatino Linotype</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="Ing_Paciente">
+      <property name="font">
+       <font>
+        <family>Sitka Heading</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(194, 236, 255);
+font: 75 12pt &quot;Sitka Heading&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Ingresar Paciente</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Eli_Paciente">
+      <property name="font">
+       <font>
+        <family>Sitka Heading</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(194, 236, 255);
+font: 75 12pt &quot;Sitka Heading&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Eliminar Paciente</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Edi_Paciente">
+      <property name="font">
+       <font>
+        <family>Sitka Heading</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(194, 236, 255);
+font: 75 12pt &quot;Sitka Heading&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Editar Paciente</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Ver_Diagnostico">
+      <property name="font">
+       <font>
+        <family>Sitka Heading</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(194, 236, 255);
+font: 75 12pt &quot;Sitka Heading&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Ver Diagnostico </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Ver_Estadisticas">
+      <property name="font">
+       <font>
+        <family>Sitka Heading</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(194, 236, 255);
+font: 75 12pt &quot;Sitka Heading&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Ver Estadisticas</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Bot_Salir2">
+      <property name="font">
+       <font>
+        <family>Sitka Heading</family>
+        <pointsize>12</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(194, 236, 255);
+font: 75 12pt &quot;Sitka Heading&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Salir</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
